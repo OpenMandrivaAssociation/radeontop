@@ -43,7 +43,7 @@ install -Dm 0644 -p %{SOURCE1} \
 %files -f %{name}.lang
 %doc README.md 
 %license COPYING
-%{_sbindir}/%{name}
+#{_sbindir}/%{name}
 %{_libdir}/lib%{name}_xcb.so
 %{_mandir}/man1/%{name}.1*
 #AppStream metadata
