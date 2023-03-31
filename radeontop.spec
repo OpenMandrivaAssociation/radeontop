@@ -5,7 +5,7 @@ Summary:	View GPU utilization of AMD/ATI Radeon devices
 Name:		radeontop
 Group:		System/Kernel and hardware
 Version:	1.4
-Release:	1
+Release:	2
 License:	GPLv3
 URL:		https://github.com/clbr/radeontop
 Source0:	https://github.com/clbr/%{name}/archive/v%{version}/%{name}-%{version}.tar.gz
