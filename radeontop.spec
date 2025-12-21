@@ -11,6 +11,11 @@ URL:		https://github.com/clbr/radeontop
 Source0:	https://github.com/clbr/%{name}/archive/v%{version}/%{name}-%{version}.tar.gz
 Source1:	%{name}.metainfo.xml
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	asciidoc gettext
 BuildRequires:	appstream-util
 BuildRequires:	pkgconfig(ncurses)
